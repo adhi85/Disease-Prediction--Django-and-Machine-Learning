@@ -24,7 +24,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'v3v5vfsn0xxjtmb=eoawoiw$5br4g0r&jy_l39995h_93l+-z5'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # ALLOWED_HOSTS = []
 
@@ -94,11 +94,11 @@ WSGI_APPLICATION = 'disease_prediction.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd45o5ro0t6l048',
-        'USER': 'ybfjwhgmggcrjc',
-        'PASSWORD': 'f17297d83a6af446969912364715ab96bf1b12c9efd3f85420afbb2a07137247',
-        'HOST': 'ec2-3-209-39-2.compute-1.amazonaws.com',
-        'PORT': 5432
+        'NAME': 'd8rhfms4t6h5s',
+        'USER': 'dvbpvnxwcspchz',
+        'PASSWORD': 'b33c18d9b5bd643147c08bd73b1a50eeb9ce50a975a03d179ddb9aae762e3157',
+        'HOST': 'ec2-34-242-84-130.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432'
     }
 }
 
