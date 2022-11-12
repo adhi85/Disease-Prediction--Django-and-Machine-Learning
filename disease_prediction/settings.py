@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import django_heroku
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,9 @@ SECRET_KEY = 'v3v5vfsn0xxjtmb=eoawoiw$5br4g0r&jy_l39995h_93l+-z5'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['dr-dz.herokuapp.com']
 
 
 # Application definition
@@ -77,17 +80,27 @@ WSGI_APPLICATION = 'disease_prediction.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'drdz',
+#         'USER': 'postgres',
+#         'PASSWORD': 'muthanikatt',
+#         'HOST': 'localhost',
+#         'PORT': 5433 
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'drdz',
-        'USER': 'postgres',
-        'PASSWORD': 'muthanikatt',
-        'HOST': 'localhost',
-        'PORT': 5433 
+        'NAME': 'd45o5ro0t6l048',
+        'USER': 'ybfjwhgmggcrjc',
+        'PASSWORD': 'f17297d83a6af446969912364715ab96bf1b12c9efd3f85420afbb2a07137247',
+        'HOST': 'ec2-3-209-39-2.compute-1.amazonaws.com',
+        'PORT': 5432
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
@@ -125,7 +138,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
+# STATIC_URL = '/static/'
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
+django_heroku.settings(locals())
+
 STATICFILES_DIRS = [
 
     os.path.join(BASE_DIR,'templates')
