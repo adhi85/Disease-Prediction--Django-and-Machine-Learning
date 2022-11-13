@@ -4,7 +4,8 @@
 
 # How To Use This
 Install PostgreSQL and pgadmin
-manually create a DB instance on PostgreSQL named "drdz", better use PgAdmin for that.
+manually create a DB instance on PostgreSQL named "drdz", 
+use PgAdmin for that.
 make a new environment(recommended) and run...
 
 - Run pip install -r requirements.txt to install dependencies
