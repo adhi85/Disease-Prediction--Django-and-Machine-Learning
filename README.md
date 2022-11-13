@@ -1,4 +1,4 @@
-### General Disease Prediction based on symptoms provided by patient- Done using Django & Machine Learning
+### General Disease Prediction based on symptoms provided by patient- Done using Machine Learning and Django
 ### Output can be viewed in OUTPUT.pdf 
 
 
@@ -6,7 +6,7 @@
 Install PostgreSQL and pgadmin
 manually create a DB instance on PostgreSQL named "drdz", 
 use PgAdmin for that.
-make a new environment(recommended) and run...
+make a new environment(recommended) and run
 
 - Run pip install -r requirements.txt to install dependencies
 - Run python manage.py makemigrations
