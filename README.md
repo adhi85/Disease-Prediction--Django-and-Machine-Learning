@@ -1,4 +1,4 @@
-###Disease Prediction by patient based on symptoms given- Done using Machine Learning and Django
+### Disease Prediction by patient based on symptoms given- Done using Machine Learning and Django
 ### Output can be viewed in OUTPUT.pdf 
 
 
