@@ -1,4 +1,4 @@
-### General Disease Prediction based on symptoms provided by patient- by Django & Machine Learning
+### General Disease Prediction based on symptoms provided by patient- Done using Django & Machine Learning
 
 
 # How To Use This
