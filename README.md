@@ -1,4 +1,5 @@
 ### General Disease Prediction based on symptoms provided by patient- Done using Django & Machine Learning
+### Output can be viewed in OUTPUT.pdf 
 
 
 # How To Use This
