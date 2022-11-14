@@ -1,6 +1,6 @@
-### Disease Prediction by patient based on symptoms given- Done using Machine Learning and Django
+### Disease Prediction by patient based on symptoms given
 ### Output can be viewed in OUTPUT.pdf 
-
+- Done using Machine Learning and Django
 
 # How To Use This
 Install PostgreSQL and pgadmin
